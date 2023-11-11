@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+  } 
+
+
+b{
+    color: rgb(0, 0, 0);
+}
+  
+  a {
+    color: #fff !important;
+    text-decoration: none !important;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    color: #fff !important;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none !important;
+    /*padding: 0px 1430px 0px 0px;*/
+  }
+
+  .escrita{
+    margin-top: 10%;
+    margin-left: 6%;
+    width: 50vw;
+    height: 30vh;
+  }
+
+  .prof{
+    transform: translate(-50%,-50%);
+    margin-top: -5%;
+    margin-left: 75%;
+    
+  }
+
+  img{
+    padding: 0 0 0 5px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 10vh;
+  }
+ 
+    body {
+      overflow-x: hidden;
+    }
+
+  .container-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #23232e;
+    color: white;
+    text-align: center;
+    height: 10vh;
+ }
+
+main{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+html{
+  height: 100%;
+}
+
+@media only screen and (max-width: 838px) {
+  .prof{
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .escrita{
+    margin-top: 80%;
+    margin-left: 6%;
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .prof{
+    transform: translate(-50%,-50%);
+    margin-top: -90%;
+    margin-left: 50%;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 353px){
+  .escrita{
+    margin-top: 80%;
+    margin-left: 6%;
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .prof{
+    transform: translate(-50%,-50%);
+    margin-top: -92%;
+    margin-left: 50%;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 338px){
+  .escrita{
+    margin-top: 80%;
+    margin-left: 6%;
+    width: 80vw;
+    height: 30vh;
+  }
+
+  .prof{
+    transform: translate(-50%,-50%);
+    margin-top: -94%;
+    margin-left: 50%;
+    width: 50%;
+  }
+}
+
+
+.funfa{
+  margin-left: 12vw;
+}
+
+.funfa2{
+  margin: 0 0 5vh 0;
+  margin-top: 10vh;
+  margin-left: 12vw;
+
+}
+
+@media only screen and (max-width: 435px){
+  .funfa{
+    margin-top: 10vh;
+    margin-left: 12vw;
+  }
+  
+  .funfa2{
+    margin: 0 0 5vh 0;
+    margin-top: 10vh;
+    margin-left: 12vw;
+  
+  }
+}
+
+@media only screen and (max-width: 395px){
+  .funfa{
+    margin-top: 14vh;
+    margin-left: 12vw;
+  }
+}
